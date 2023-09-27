@@ -1,0 +1,101 @@
+/* Style pour le formulaire */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Style pour la table des participants */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+/* Style pour l'en-tête de la table */
+th {
+    background-color: #007bff;
+    color: #fff;
+}
+
+/* Style pour le titre de la page */
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: #007bff;
+}
+
+/* Style pour les liens non visités */
+a {
+    text-decoration: none; /* Supprime les soulignements par défaut */
+    color: #007bff; /* Couleur du lien non visité */
+    transition: color 0.3s; /* Animation de transition de couleur */
+}
+
+/* Style pour les liens survolés */
+a:hover {
+    color: #0056b3; /* Couleur du lien au survol */
+}
+
+/* Style pour les liens visités */
+a:visited {
+    color: #9c27b0; /* Couleur du lien visité */
+}
+
+/* Style pour le deuxième formulaire (bouton "Voir la liste") */
+form#liste-form {
+    text-align: center; /* Centre le contenu du formulaire */
+    margin-top: 20px; /* Ajoute une marge supérieure pour l'éloigner du formulaire d'enregistrement */
+}
+
+form#liste-form input[type="submit"] {
+    background-color: #28a745; /* Couleur de fond du bouton */
+    color: #fff; /* Couleur du texte du bouton */
+    padding: 10px 20px; /* Espacement intérieur du bouton */
+    border: none; /* Supprime la bordure du bouton */
+    border-radius: 3px; /* Arrondit les coins du bouton */
+    cursor: pointer; /* Curseur pointeur au survol du bouton */
+}
+
+form#liste-form input[type="submit"]:hover {
+    background-color: #218838; /* Couleur de fond au survol du bouton */
+}
